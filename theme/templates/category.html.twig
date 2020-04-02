@@ -1,13 +1,28 @@
 {% extends 'partials/base.html.twig' %}
 
+{% set collection = page.collection %}
+
+{% if search_results %}
+    {% set collection = search_results %}
+{% endif %}
+
 {% block content %}
-    {% for p in page.collection %}
+    {% if collection.count %}
+        {% for p in collection %}
+            <div class="content">
+                <h3 class="title is-4"><a href="{{ p.permalink }}">{{ p.title }}</a></h3>
+                <p class="is-italic">{{ p.header.description }}</p>
+                <div>
+                    {% for t in p.header.taxonomy.tag %}
+                        <span class="tag">{{ t|title }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            <hr>
+        {% endfor %}
+    {% else %}
         <div class="content">
-            <h3 class="title is-4"><a href="{{ p.permalink }}">{{ p.title }}</a></h3>
-            <p class="is-italic">{{ p.header.description }}</p>
+            <p>No recipes were found!</p>
         </div>
-        <hr>
-    {% endfor %}
+    {% endif %}
 {% endblock %}
-
-

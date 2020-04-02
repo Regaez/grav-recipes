@@ -62,5 +62,8 @@ RUN curl -o grav.zip -SL https://getgrav.org/download/core/grav/${GRAV_VERSION} 
     mv -T /var/www/grav /var/www/html && \
     rm grav.zip
 
+# Install simplesearch plugin
+RUN cd /var/www/html && bin/gpm install simplesearch
+
 # Return to root user
 USER root

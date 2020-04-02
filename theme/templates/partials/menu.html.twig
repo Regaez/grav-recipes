@@ -1,4 +1,22 @@
 {% block menu %}
+    <form name="search" action="/search">
+        <div class="field has-addons">
+            <div class="control">
+                <input
+                    class="input"
+                    type="text"
+                    placeholder="Find a recipe"
+                    name="query"
+                    required
+                    value="{{ uri.query('query') }}"
+                >
+            </div>
+            <div class="control">
+                <button type="submit" class="button is-info">Search</button>
+            </div>
+        </div>
+    </form>
+    <hr>
     <aside class="menu">
         <p class="menu-label">Browse Categories</p>
         <ul class="menu-list">
