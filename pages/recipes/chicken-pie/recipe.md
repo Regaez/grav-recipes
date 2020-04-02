@@ -4,6 +4,8 @@ taxonomy:
   category: mains
   tag:
     - chicken
+description: |
+  A traditional family recipe handed down from my Nanny.
 ingredients:
   - 1kg chicken
   - 40g plain flour

@@ -3,28 +3,27 @@ title: Macaroni Chilli
 taxonomy:
   category: mains
   tag:
-    - quick 'n easy
     - vegan
     - pasta
 description: |
   Protein-packed with both a soy veggie ground and kidney beans.
 ingredients:
-  - 2 cups (285 g) dry whole wheat macaroni noodles
-  - 1 Tbsp (15 mL) vegetable oil
+  - 2 cups (285g) dry whole wheat macaroni noodles
+  - 1 Tbsp (15ml) vegetable oil
   - 1 onion, diced
   - 2 cloves garlic, minced
-  - 1 can (400 g) diced tomatoes
-  - 2 Tbsp (70 g) tomato paste
+  - 1 can (400g) diced tomatoes
+  - 2 Tbsp (70 ) tomato paste
   - 1 vegetable bouillon cube
-  - 1 tsp (4 g) hot chili powder
-  - 1 tsp (4 g) paprika powder
-  - 1 tsp (4 g) salt
+  - 1 tsp (4g) hot chili powder
+  - 1 tsp (4g) paprika powder
+  - 1 tsp (4g) salt
   - 0.5 tsp fresh ground black pepper
-  - 1.5 cups (200 g) soy veggie ground
+  - 1.5 cups (200g) soy veggie ground
   - 2 medium carrots, diced
   - 1 red bell pepper, seeded and diced
-  - 1 can (310 g) kidney beans, rinsed
-  - 3 cups (100 g) fresh spinach
+  - 1 can (310g) kidney beans, rinsed
+  - 3 cups (100g) fresh spinach
 servings: 4
 time:
   preparation: 10

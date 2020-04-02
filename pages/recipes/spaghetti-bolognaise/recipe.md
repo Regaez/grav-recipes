@@ -5,6 +5,8 @@ taxonomy:
   tag:
     - beef
     - pasta
+description: |
+  A simple meal that should be in everyone's repertoire.
 ingredients:
   - 200g mince
   - 100g chopped bacon
