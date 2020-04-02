@@ -40,7 +40,11 @@ nutrition:
 ---
 
 1. Preheat oven to 350 degrees. Butter a 10-inch pie plate. Sift flour, baking powder, and salt together into a medium bowl.
+
 2. Put butter and 1 cup sugar in the bowl of an electric mixer fitted with the paddle attachment. Mix on medium-high speed until pale and fluffy, about 3 minutes. Reduce speed to medium-low; mix in egg, milk, and vanilla.
+
 3. Reduce speed to low; gradually mix in flour mixture. Then add chocolate chips to the mix.
+
 4. Transfer batter to buttered pie plate. Arrange raspberries on top of batter, cut sides down and as close together as possible. Sprinkle remaining 2 tablespoons sugar over berries.
+
 5. Bake cake 10 minutes. Reduce oven temperature to 325 degrees. Bake until cake is golden brown and firm to the touch, about 1 hour. Let cool in pie plate on a wire rack. Cut into wedges
