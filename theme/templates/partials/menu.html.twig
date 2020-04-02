@@ -1,0 +1,17 @@
+{% block menu %}
+    <aside class="menu">
+        <p class="menu-label">Browse Categories</p>
+        <ul class="menu-list">
+            <li><a href="/">All Recipes</a></li>
+            {% for c in taxonomy.getTaxonomyItemKeys('category') %}
+                <li><a href="/category:{{c}}">{{ c|title }}</a></li>
+            {% endfor %}
+        </ul>
+        <p class="menu-label">Browse Tags</p>
+        <div>
+            {% for t in taxonomy.getTaxonomyItemKeys('tag') %}
+                <span class="tag"><a href="/tag:{{t}}">{{ t|title }}</a></span>
+            {% endfor %}
+        </div>
+    </aside>
+{% endblock %}

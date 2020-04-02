@@ -1,0 +1,75 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <div class="content">
+        <h3 class="title is-3">Ingredients</h3>
+        <div class="columns is-multiline">
+            {% for i in page.header.ingredients %}
+                <div class="column is-6">
+                    <input id="ing{{ loop.index }}" type="checkbox"> &nbsp;<label class="is-unselectable" for="ing{{ loop.index }}">{{ i }}</label>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <hr>
+    <div class="content">
+        <h3 class="title is-3">Instructions</h3>
+        <div class="content">{{ page.content }}</div>
+    </div>
+    <hr>
+    <nav class="level is-hidden-mobile">
+        <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Servings</p>
+            <p class="title">{{ page.header.servings }}</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Preparation Time</p>
+            <p class="title">{{ page.header.time.preparation }} min</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Cooking Time</p>
+            <p class="title">{{ page.header.time.cooking }} min</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Total Time</p>
+            <p class="title">{{ page.header.time.total }} min</p>
+            </div>
+        </div>
+    </nav>
+    <nav class="level is-mobile is-hidden-tablet">
+        <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Servings</p>
+            <p class="title">{{ page.header.servings }}</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Preparation Time</p>
+            <p class="title">{{ page.header.time.preparation }} min</p>
+            </div>
+        </div>
+    </nav>
+    <nav class="level is-mobile is-hidden-tablet">
+        <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Cooking Time</p>
+            <p class="title">{{ page.header.time.cooking }} min</p>
+            </div>
+        </div>
+        <div class="level-item has-text-centered">
+            <div>
+            <p class="heading">Total Time</p>
+            <p class="title">{{ page.header.time.total }} min</p>
+            </div>
+        </div>
+    </nav>
+    <hr>
+{% endblock %}

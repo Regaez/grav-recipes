@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  grav:
+    image: grav-site-recipes
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8081:80
+    volumes:
+      - ./pages:/var/www/html/user/pages
+      - ./config:/var/www/html/user/config
+      - ./theme:/var/www/html/user/themes/recipes

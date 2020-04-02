@@ -1,0 +1,17 @@
+{% set title = page.title %}
+{% if uri.param('category') %}
+    {% set title = uri.param('category')|title %}
+{% elseif uri.param('tag') %}
+    {% set title = uri.param('tag')|title %}
+{% endif %}
+
+{% block hero %}
+    <section class="hero is-info">
+    <div class="hero-body">
+        <div class="container">
+            <h2 class="subtitle"><a href="/">recipes</a> /</h2>
+            <h1 class="title">{{ title }}</h1>
+        </div>
+    </div>
+    </section>
+{% endblock %}

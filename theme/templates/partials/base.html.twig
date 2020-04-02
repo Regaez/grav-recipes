@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    {% block head %}
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1">
+
+        {% if header.description %}
+            <meta name="description" content="{{ header.description }}">
+        {% else %}
+            <meta name="description" content="{{ site.description }}">
+        {% endif %}
+
+        {% if header.robots %}
+            <meta name="robots" content="{{ header.robots }}">
+        {% endif %}
+
+        <link rel="icon" type="image/x-icon" href="{{ theme_url }}/favicon.ico">
+
+        <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+        {% block stylesheets %}
+            {% do assets.add('theme://css/theme.css', 100) %}
+            {{ assets.css() }}
+        {% endblock %}
+    {% endblock head %}
+    </head>
+
+    <body id="top">
+        {% include 'partials/hero.html.twig' %}
+        <section class="section">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-8">
+                        {% block content %}{% endblock %}
+                    </div>
+                    <div class="column is-3 is-offset-1">
+                        {% include 'partials/menu.html.twig' %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

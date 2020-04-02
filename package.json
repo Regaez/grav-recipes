@@ -1,0 +1,11 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docker:clean": "docker-compose -f docker-compose.yaml rm && docker rmi -f grav-site-recipes",
+    "start": "docker-compose -f docker-compose.yaml up -d",
+    "start:clean": "npm run stop && npm run docker:clean && npm run start",
+    "stop": "docker-compose -f docker-compose.yaml down"
+  }
+}
