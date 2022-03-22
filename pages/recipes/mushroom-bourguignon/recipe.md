@@ -5,6 +5,7 @@ taxonomy:
   tag:
     - vegan
     - stew
+    - potato
 description: |
   This mushroom bourguignon is the ultimate hearty, comforting vegan stew (and it's also surprisingly low calorie!).
 ingredients:
