@@ -6,7 +6,7 @@
         <div class="columns is-multiline">
             {% for i in page.header.ingredients %}
                 <div class="column is-6">
-                    <input id="ing{{ loop.index }}" type="checkbox"> &nbsp;<label class="is-unselectable" for="ing{{ loop.index }}">{{ i }}</label>
+                    <input id="ing{{ loop.index }}" type="checkbox"> &nbsp;<label class="is-unselectable" for="ing{{ loop.index }}">{{ i | markdown(false) }}</label>
                 </div>
             {% endfor %}
         </div>
