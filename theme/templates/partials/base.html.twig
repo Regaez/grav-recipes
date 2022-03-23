@@ -20,7 +20,7 @@
 
         <title>{% if header.title %}{{ header.title }} | {% endif %}{{ site.title }}</title>
 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 
         {% block stylesheets %}
@@ -35,10 +35,13 @@
         <section class="section">
             <div class="container">
                 <div class="columns">
+                    <div class="column is-3 is-offset-1 is-hidden-tablet">
+                        {% include 'partials/menu.html.twig' %}
+                    </div>
                     <div class="column is-8">
                         {% block content %}{% endblock %}
                     </div>
-                    <div class="column is-3 is-offset-1">
+                    <div class="column is-3 is-offset-1 is-hidden-mobile">
                         {% include 'partials/menu.html.twig' %}
                     </div>
                 </div>

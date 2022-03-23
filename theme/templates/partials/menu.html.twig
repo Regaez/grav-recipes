@@ -1,7 +1,7 @@
 {% block menu %}
     <form name="search" action="/search">
         <div class="field has-addons">
-            <div class="control">
+            <div class="control is-expanded">
                 <input
                     class="input"
                     type="text"
@@ -19,7 +19,7 @@
     <hr>
     <aside class="menu">
         <p class="menu-label">Browse Categories</p>
-        <ul class="menu-list">
+        <ul class="menu-list is-flex-mobile">
             <li><a href="/">All Recipes</a></li>
             {% for c in taxonomy.getTaxonomyItemKeys('category')|sort %}
                 <li><a href="/category:{{c}}">{{ c|title }}</a></li>
@@ -28,8 +28,9 @@
         <p class="menu-label">Browse Tags</p>
         <div>
             {% for t in taxonomy.getTaxonomyItemKeys('tag')|sort %}
-                <span class="tag"><a href="/tag:{{t}}">{{ t|title }}</a></span>
+                <span class="tag mt-1"><a href="/tag:{{t}}">{{ t|title }}</a></span>
             {% endfor %}
         </div>
     </aside>
+    <hr>
 {% endblock %}
