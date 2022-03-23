@@ -17,6 +17,7 @@ ingredients:
   - 1 jar of tomato salsa (medium spice)
   - 100g lettuce
   - 4 medium-sized carrots
+  - 1 batch of [cashew cream](/recipes/cashew-cream)
 servings: 4
 time:
   preparation: 10
