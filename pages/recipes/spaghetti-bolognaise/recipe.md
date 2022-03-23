@@ -5,6 +5,7 @@ taxonomy:
   tag:
     - beef
     - pasta
+    - cheesy
 description: |
   A simple meal that should be in everyone's repertoire.
 ingredients:

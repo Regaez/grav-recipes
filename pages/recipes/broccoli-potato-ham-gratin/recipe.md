@@ -5,7 +5,7 @@ taxonomy:
   tag:
     - ham
     - potato
-    - cheese
+    - cheesy
 description: |
   A deliciously cheesy meal that's surprising simple, yet leaves you coming back for more.
 ingredients:

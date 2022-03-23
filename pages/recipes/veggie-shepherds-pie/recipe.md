@@ -7,6 +7,7 @@ taxonomy:
     - vegetarian
     - vegan
     - potato
+    - cheesy
 description: |
   A hearty, soy-mince and bean-based Shepherd's Pie. Can be made vegan.
 ingredients:
