@@ -19,7 +19,7 @@
     <hr>
     <aside class="menu">
         <p class="menu-label">Browse Categories</p>
-        <ul class="menu-list is-flex-mobile">
+        <ul class="menu-list is-flex-mobile is-flex-wrap-wrap">
             <li><a href="/">All Recipes</a></li>
             {% for c in taxonomy.getTaxonomyItemKeys('category')|sort %}
                 <li><a href="/category:{{c}}">{{ c|title }}</a></li>
