@@ -5,6 +5,7 @@ taxonomy:
     - mains
   tag:
     - vegan
+    - vegetarian
     - curry
     - potato
 description: |

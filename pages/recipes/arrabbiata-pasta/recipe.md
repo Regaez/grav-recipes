@@ -5,6 +5,7 @@ taxonomy:
     - mains
   tag:
     - vegan
+    - vegetarian
     - pasta
 description: |
   A quick and easy, endlessly flexible, yummy pasta dish.

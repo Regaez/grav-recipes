@@ -4,6 +4,7 @@ taxonomy:
   category: sides
   tag:
     - vegan
+    - vegetarian
 description: |
   Flavourful, uses minimal oil and is baked to perfection in the oven. Great for adding to stirfrys or just snacking on.
 ingredients:

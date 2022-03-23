@@ -4,6 +4,7 @@ taxonomy:
   category: mains
   tag:
     - vegan
+    - vegetarian
     - stew
     - potato
 description: |

@@ -6,6 +6,7 @@ taxonomy:
   tag:
     - curry
     - vegan
+    - vegetarian
     - rice
 description: |
   A vibrant, colourful curry that will burst with flavour in your mouth.

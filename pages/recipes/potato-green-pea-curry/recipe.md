@@ -6,6 +6,7 @@ taxonomy:
   tag:
     - curry
     - vegan
+    - vegetarian
     - rice
     - potato
 description: |

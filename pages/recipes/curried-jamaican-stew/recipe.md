@@ -6,6 +6,7 @@ taxonomy:
   tag:
     - curry
     - vegan
+    - vegetarian
 description: |
   A hearty, spicy curry that will fill your belly and warm your insides.
 ingredients:

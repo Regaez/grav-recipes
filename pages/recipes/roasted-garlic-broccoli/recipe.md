@@ -5,6 +5,7 @@ taxonomy:
     - sides
   tag:
     - vegan
+    - vegetarian
 description: |
   The simplest, most divine, way to serve broccoli.
 ingredients:

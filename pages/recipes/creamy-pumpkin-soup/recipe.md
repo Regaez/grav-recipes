@@ -5,6 +5,7 @@ taxonomy:
     - soups
   tag:
     - vegan
+    - vegetarian
 description: |
   A creamy, gently spiced, pumpkin soup that warms the belly on a winter's day.
 ingredients:

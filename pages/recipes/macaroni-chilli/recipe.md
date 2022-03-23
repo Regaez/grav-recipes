@@ -4,6 +4,7 @@ taxonomy:
   category: mains
   tag:
     - vegan
+    - vegetarian
     - pasta
 description: |
   Protein-packed with both a soy veggie ground and kidney beans.
